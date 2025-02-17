@@ -9,8 +9,8 @@ OpenAI's Swarm is an experimental educational framework designed to explore mult
 More inforamtion on swarm https://github.com/openai/swarm
 
 Run swarm agent
--run pip install -r requirements.txt
--add OPENAI_API_KEY to your environment variables 
+- run pip install -r requirements.txt
+- add OPENAI_API_KEY to your environment variables 
  set OPENAI_API_KEY=sk-xxxxxx-xxxxxx-xxxxxx-xxxxxx-xxxxxx
 - python run_swarm.py
 
