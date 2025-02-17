@@ -1,27 +1,46 @@
-# swarm 🐝🔄
+🐝 What is Swarm AI?
 
 Imagine a swarm of bees working together—they don’t have a single leader, but they coordinate to build a hive, find food, and protect themselves.
 
-Swarm AI is when multiple AI ronots work together like a team—just like a swarm of bees! Instead of one big AI making decisions, a group of small AIs communicate and collaborate to solve problems.
+Swarm AI is similar! Instead of one big AI making decisions, multiple AI robots work together like a team—just like a swarm of bees! These small AIs communicate and collaborate to solve problems efficiently.
 
-OpenAI's Swarm is an experimental educational framework designed to explore multi-agent systems. You can create and manage multiple AI agents that can collaborate and perform tasks seamlessly, help automate workflows across various applications.
+🚀 OpenAI Swarm Framework
 
-More inforamtion on swarm https://github.com/openai/swarm
+OpenAI's Swarm is an experimental educational framework designed to explore multi-agent systems.
 
-Run swarm agent
-- run pip install -r requirements.txt
-- add OPENAI_API_KEY to your environment variables 
- set OPENAI_API_KEY=sk-xxxxxx-xxxxxx-xxxxxx-xxxxxx-xxxxxx
-- python run_swarm.py
+With Swarm, you can:✅ Create and manage multiple AI agents✅ Enable AIs to collaborate and perform tasks seamlessly✅ Automate workflows across various applications
 
+🔗 More information: GitHub - OpenAI Swarm
 
-Run Swarm agent for free with ollama model(llama3.1) 
+## 🛠️ How to Run a Swarm Agent  
 
-- Download ollama 
-- open windows powershell 
-- ollama run llama3.1 
-- run pip install -r requirements.txt
-- run_swarm_ollama
+### **1️⃣ Running Swarm with OpenAI API**  
+```sh
+pip install -r requirements.txt
+
+# Add your OpenAI API Key to environment variables  
+set OPENAI_API_KEY=sk-xxxxxx-xxxxxx-xxxxxx-xxxxxx-xxxxxx
+
+# Start the Swarm agent  
+python run_swarm.py
+```
+
+🆓 Running Swarm with Ollama (Llama3.1) – No API Key Required!
+### **Run Swarm for Free with Ollama Model (Llama3.1)**
+
+```sh
+# Download Ollama  
+https://ollama.com
+
+# Open Windows PowerShell  
+ollama run llama3.1  
+
+# Install dependencies  
+pip install -r requirements.txt  
+
+# Run Swarm with Ollama  
+python run_swarm_ollama.py
+
 
 
 
